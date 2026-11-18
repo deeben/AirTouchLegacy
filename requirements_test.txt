@@ -1,0 +1,6 @@
+# Protocol tests (tests/protocol) only need these:
+pytest
+pytest-asyncio
+# Home Assistant integration tests (tests/integration) also need this, which
+# pulls in a matching Home Assistant release. Python 3.13 or newer.
+pytest-homeassistant-custom-component

@@ -1,0 +1,13 @@
+{
+  "domain": "airtouch_legacy",
+  "name": "AirTouch 2 & 3",
+  "codeowners": ["@deeben"],
+  "config_flow": true,
+  "documentation": "https://github.com/deeben/AirTouchLegacy",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/deeben/AirTouchLegacy/issues",
+  "loggers": ["custom_components.airtouch_legacy"],
+  "requirements": [],
+  "version": "0.1.0"
+}
